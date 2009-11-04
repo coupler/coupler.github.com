@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>
+      Coupler
+    </title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+</head>
+<body>
+    <form method="post" action="/projects/my-project/resources">
+      <p>
+        <label for="name">
+          Name
+        </label>
+        <br><input id="name" name="resource[name]" type="text" value="people" disabled></p>
+      <p>
+        <label for="adapter">
+          Adapter
+        </label>
+        <br><select id="adapter" name="resource[adapter]" disabled><option value="mysql" selected>
+            MySQL
+          </option></select></p>
+      <p>
+        <label for="host">
+          Host
+        </label>
+        <br><input id="host" name="resource[host]" type="text" value="localhost" disabled></p>
+      <p>
+        <label for="port">
+          Port
+        </label>
+        <br><input id="port" name="resource[port]" type="text" value="12345" disabled></p>
+      <p>
+        <label for="username">
+          Username
+        </label>
+        <br><input id="username" name="resource[username]" type="text" value="coupler" disabled></p>
+      <p>
+        <label for="password">
+          Password
+        </label>
+        <br><input id="password" name="resource[password]" type="password" value="cupla" disabled></p>
+      <p>
+        <label for="database_name">
+          Database
+        </label>
+        <br><input id="database_name" name="resource[database_name]" type="text" value="fake_data" disabled></p>
+      <p>
+        <label for="table_name">
+          Table
+        </label>
+        <br><input id="table_name" name="resource[table_name]" type="text" value="people" disabled></p>
+      <p>
+        <input type="submit" value="Submit" disabled>
+         or 
+        <a href="#">
+          Cancel
+        </a>
+      </p>
+    </form>
+  </body>
+</html>
