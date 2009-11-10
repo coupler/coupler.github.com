@@ -1,0 +1,13 @@
+body {
+  background: #555;
+}
+
+#main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  min-height: 500px;
+  background: white url(coupler.png) no-repeat;
+  background-position: 95% 50%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
