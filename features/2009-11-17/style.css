@@ -1,0 +1,126 @@
+body {
+  background: #555;
+  font-family: verdana, 'Lucida Grande', arial, helvetica, sans-serif;
+}
+
+#main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background: white url(sidebar.png) top left no-repeat;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  height: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -375px;
+  margin-left: -480px;
+}
+
+#sidebar {
+  color: white;
+}
+#sidebar h3 {
+  font-size: 1.1em;
+}
+#sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 750px;
+}
+#sidebar li {
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+}
+#sidebar a,
+#sidebar a:visited {
+  color: white;
+  text-decoration: none;
+}
+#sidebar a:hover {
+  text-decoration: underline;
+}
+#sidebar img {
+  display: block;
+  vertical-align: middle;
+  float: left;
+  margin-right: 0.5em;
+}
+
+#content {
+  background: transparent url(coupler.png) no-repeat;
+  background-position: 95% 50%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  height: 750px;
+}
+
+#notice {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  padding: 1em;
+  background-color: green;
+  color: white;
+  margin-bottom: 1em;
+}
+#notice a,
+#notice a:visited {
+  color: white;
+}
+
+.errors {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 2px solid red;
+  background: #eee;
+  float: left;
+  margin-bottom: 1em;
+}
+.errors h3 {
+  font-size: 1.1em;
+  background-color: red;
+  color: white;
+  margin: 0;
+  padding: 0.3em;
+}
+.errors ul {
+  padding: 0.5em;
+  margin-bottom: 0;
+  list-style-type: square;
+}
+
+h1, h2, h3 {
+  font-family: georgia;
+}
+
+label {
+  font-weight: bold;
+}
+
+.inner {
+  padding: 1em;
+}
+
+table.form tr.alt td {
+  background-color: #eee;
+}
+table.form td {
+  padding: 0.3em 0 0.3em 1em;
+}
+table.form td.left {
+  padding-right: 1em;
+}
+
+table.list th {
+  border-bottom: 2px solid gray;
+  padding: 0 0.5em;
+}
+table.list td {
+  padding: 0.5em;
+}
+
+input, select, textarea {
+  border: 1px solid gray;
+}
