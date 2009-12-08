@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<?xml version="1.0" encoding="utf-8"?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>
+      Coupler
+    </title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<link rel="stylesheet" type="text/css" media="all" href="reset.css">
+<link rel="stylesheet" type="text/css" media="all" href="text.css">
+<link rel="stylesheet" type="text/css" media="all" href="960.css">
+<link rel="stylesheet" type="text/css" media="all" href="style.css">
+<link rel="stylesheet" type="text/css" media="all" href="jquery-ui.css">
+</head>
+<body>
+    <div id="main" class="container_16">
+      <div id="sidebar" class="grid_2">
+        <ul>
+<li>
+            <a href="#">
+              <img src="home.gif">
+              Home
+            </a>
+          </li>
+        </ul>
+<div class="about">
+          
+    Coupler is open source software.  View the source
+    
+          <a href="#">
+            here
+          </a>
+          .
+  
+        </div>
+      </div>
+      <div id="content" class="grid_14">
+        <div class="inner">
+          <h1>
+            People in My Project
+          </h1>
+          <h2>
+            Source Fields
+          </h2>
+          <table class="list">
+<thead align="left"><tr>
+<th>
+                  Field
+                </th>
+                <th>
+                  Type
+                </th>
+              </tr></thead>
+<tbody align="left">
+<tr>
+<td>
+                  id
+                </td>
+                <td>
+                  int(11)
+                </td>
+              </tr>
+<tr>
+<td>
+                  first_name
+                </td>
+                <td>
+                  varchar(255)
+                </td>
+              </tr>
+<tr>
+<td>
+                  last_name
+                </td>
+                <td>
+                  varchar(255)
+                </td>
+              </tr>
+</tbody>
+</table>
+<h2>
+            Transformations
+          </h2>
+          <table class="list">
+<thead align="left"><tr>
+<th>
+                  Field
+                </th>
+                <th>
+                  Transformer
+                </th>
+              </tr></thead>
+<tbody align="left"><tr>
+<td>
+                  first_name
+                </td>
+                <td>
+                  downcaser
+                </td>
+              </tr></tbody>
+</table>
+<p>
+            <a href="#">
+              Add transformation
+            </a>
+          </p>
+          <h3>
+            Status
+          </h3>
+          <p>
+            
+  Last transformed at: 
+            <strong>
+              Never
+            </strong>
+          </p>
+          <p>
+            <input id="transform-button" type="button" value="Transform Now" disabled></p>
+        </div>
+      </div>
+      <div class="clear">
+      </div>
+    </div>
+    <div aria-labelledby="ui-dialog-title-transform-dialog" style="display: none; position: absolute; overflow: hidden; z-index: 1000; outline: 0px;" tabindex="-1" role="dialog" class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable ui-resizable">
+      <div style="-moz-user-select: none;" unselectable="on" class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix">
+        <span id="ui-dialog-title-transform-dialog" style="-moz-user-select: none;" unselectable="on" class="ui-dialog-title">
+          Transform
+        </span>
+        <a href="#" class="ui-dialog-titlebar-close ui-corner-all" role="button" unselectable="on" style="-moz-user-select: none;">
+          <span style="-moz-user-select: none;" unselectable="on" class="ui-icon ui-icon-closethick">
+            close
+          </span>
+        </a>
+      </div>
+      <div id="transform-dialog" class="ui-dialog-content ui-widget-content">
+        <div id="transform-1" style="display: block;">
+          <form method="get" action="/projects/my_project/resources/2/transform">
+            <p>
+              
+        This may take a while.  Make sure you have your transformations set up
+        correctly.  Do you want to proceed?
+      
+            </p>
+            <div style="text-align: center">
+              <input id="transform-ok-button" type="submit" value="Yes" disabled><input id="transform-cancel-button" type="button" value="No" disabled>
+</div>
+          </form>
+        </div>
+      </div>
+      <div class="ui-resizable-handle ui-resizable-n" unselectable="on" style="-moz-user-select: none;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-e" unselectable="on" style="-moz-user-select: none;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-s" unselectable="on" style="-moz-user-select: none;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-w" unselectable="on" style="-moz-user-select: none;">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se ui-icon-grip-diagonal-se" style="z-index: 1001; -moz-user-select: none;" unselectable="on">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-sw" style="z-index: 1002; -moz-user-select: none;" unselectable="on">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-ne" style="z-index: 1003; -moz-user-select: none;" unselectable="on">
+      </div>
+      <div class="ui-resizable-handle ui-resizable-nw" style="z-index: 1004; -moz-user-select: none;" unselectable="on">
+      </div>
+    </div>
+  </body>
+</html>
